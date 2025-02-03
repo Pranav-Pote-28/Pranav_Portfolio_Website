@@ -190,11 +190,13 @@ section{
 
 .section__text__p1{
     text-align:center;
+    color:var(--secondary-color)
 }
 
 .section__text__p2{
     font-size:1.75rem;
     margin-bottom:1rem;
+    color: var(--secondary-color)
 }
 
 .title{
@@ -499,7 +501,7 @@ article .icon{
 }
 
 .project-img{
-    border-radius: 2rem;
+    border-radius: 1.2rem;
     width:75%;
     height:65%;
 }
