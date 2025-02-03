@@ -578,7 +578,7 @@ footer p{
     color:var(--fav-color)
 }
 
-#moon-icon{
+#moon-icon,#moon-icon-media{
     width:35px;
     height:35px;
     cursor:pointer;
