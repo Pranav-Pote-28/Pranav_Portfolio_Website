@@ -19,9 +19,9 @@ body{
     transition: background-color 0.35s ease-in-out ,color 0.35s ease-in-out;
 }
 
-p{
+/* p{
     color:rgb(85,85,85);
-}
+} */
 
 a,.btn{
     transition:all 300ms ease;
@@ -170,7 +170,12 @@ section{
     height:400px;
     width:400px;
     margin:auto 0;
+
+    /* border-radius: 50%;
+    border:2px solid green; */
 }
+
+
 
 .section__text{
 
@@ -204,7 +209,23 @@ section{
     justify-content: center;
     margin-top: 1rem;
     gap:1rem;
+}
 
+#linkedin-icon{
+    transition:transform 0.3s ease-in-out;
+}
+
+#linkedin-icon:hover{
+    transform:scale(1.1)
+}
+
+
+#github-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+#github-icon:hover {
+    transform: scale(1.1)
 }
 
 .icon{
@@ -270,8 +291,24 @@ margin-top:2rem;
 .aboutme-text-container{
     margin-top: 3rem;
     text-align:center;
+    
 }
 
+.aboutme-text-container p{
+    color:var(--fav-color);
+}
+
+#connect{
+    color:rgb(58, 58, 204);
+    font-weight: 500;
+    text-decoration: none;
+
+    transition:color 0.3s ease-in-out;
+}
+
+#connect:hover{
+    color:rgb(110, 22, 193)
+}
 
 
 .about-pic{
@@ -349,6 +386,12 @@ margin-top:2rem;
     border-radius: 2rem;
 
 }
+/* 
+.skill_heading{
+    border:2px solid green;
+} */
+
+
 
 .skills_box_content{
     display:flex;
@@ -358,20 +401,36 @@ margin-top:2rem;
     padding-left: 1rem;
     /* border:2px solid red; */
 }
-/* .indiviual_skill{
-    border:2px solid purple;
-} */
+
+.indiviual_skill{
+    /* border:2px solid purple; */
+    text-align: center;
+    font-weight: 800;
+
+    transition:transform 0.3s ease-in-out, color 0.15s ease-in-out;
+    color:rgb(161, 161, 161);
+}
+
+
+
+
+.indiviual_skill:hover {
+    /* border: 2px solid blue; */
+    color:rgb(86, 86, 86);
+
+    transform:scale(1.1);
+}
 
 .skill_icon{
     height:3.6rem;
     width:3.6rem;
 
-    transition: transform 0.3s ease-in-out;
+    /* transition: transform 0.3s ease-in-out; */
 }
 
-.skill_icon:hover{
+/* .skill_icon:hover{
     transform: scale(1.1);
-}
+} */
 
 .skill_box_heading{
     text-align:center;
@@ -383,11 +442,26 @@ margin-top:2rem;
 .article-container{
     display:flex;
     flex-wrap: wrap;
-    text-align: initial;
     flex-direction: row;
+    justify-content:space-around;   
+    
+    text-align: initial;
     gap:3.5rem;
-    justify-content:space-around;    
+    
+    transition:transform 0.3s ease-in-out;
+}
 
+.article-container:hover{
+    transform:scale(1.1)
+}
+
+.article-container img{
+    border:2px solid rgb(134, 134, 134);
+    height:100%;
+    width:100%;
+    cursor: pointer;
+
+    background-color: #853b3b;
 }
 
 article{
@@ -501,6 +575,7 @@ footer{
 
 footer p{
     text-align: center;
+    color:var(--fav-color)
 }
 
 #moon-icon{
@@ -511,15 +586,21 @@ footer p{
 
 :root{
     --primary-color:white;
+
     --secondary-color:black; 
 
-    --fav-color:grey;
+    --black-gold:black;
+
+    --fav-color:rgb(117, 117, 117);
 }
 
 .dark-theme{
     --primary-color:black;
+
     --secondary-color:white; 
 
-    --fav-color:rgb(122, 25, 122);
+    --black-gold:rgba(125, 110, 26, 0.897);
+
+    --fav-color:rgb(130, 129, 129);
 }
 

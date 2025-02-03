@@ -18,7 +18,7 @@
     }
 
     #experience, .experience-details-container{
-        margin-top:2rem;
+        margin-top:8rem;
     }
 
     #profile, .section-container{
@@ -49,8 +49,23 @@
 
 
     }
+
 }
 
+@media screen  and (max-width:800px) {
+
+.skills_box {
+
+    flex-direction: column;
+    border: 2px solid blue;
+
+}
+
+.skills_box_content {
+    flex-direction: column;
+}
+
+}
 
 @media screen and (max-width:600px) {
 
@@ -128,6 +143,7 @@
         border:2px solid red;
         text-align: justify;
     }
+
 
 
 }

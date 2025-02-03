@@ -43,7 +43,7 @@
 
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Pranavs Profile pic"/>
+            <img src="./assets/FastAPI.png" alt="Pranavs Profile pic"/>
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello! I am </p>
@@ -51,16 +51,16 @@
             <p class="section__text__p2">Student Developer</p>
             
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
-                    Download CV
+                <button class="btn btn-color-2" onclick="window.open('./assets/Pranav_Balasaheb_Pote_Resume.pdf')">
+                    Resume
                 </button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                <button class="btn btn-color-1" onclick="location.href='#contacts'">
                     Contact Info
                 </button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon" id="linkedin-icon"  onclick="location.href='https://www.linkedin.com/in/pranav-pote/'"/>
-                <img src="./assets/github.png" alt="My github profile" class="icon" id="github-icon" onclick="location.href='https://github.com/Pranav-Pote-28'"/>
+                <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon" id="linkedin-icon" title="linkedin profile" onclick="window.open('https://www.linkedin.com/in/pranav-pote/')"/>
+                <img src="./assets/github.png" alt="My github profile" class="icon" id="github-icon" title="github profile" onclick="window.open('https://github.com/Pranav-Pote-28')"/>
             
             </div>
 
@@ -89,10 +89,16 @@
                 </div> -->
                 <div class="aboutme-text-container">
                     <p>
-                        Hi, I'm Pranav, a passionate developer with expertise in Full-Stack Web Development and a growing interest in Data Analytics. I have hands-on experience with Python, JavaScript, React, Node.js, FastAPI, and SQL, building robust and scalable applications.
-                        I love creating innovative solutions, whether it's designing intelligent chatbots, dynamic blog platforms, or responsive portfolio websites. My recent projects include integrating NLP-based chatbots with Dialogflow, building secure JWT-authenticated web applications, and optimizing front-end performance.
-                        Currently, I'm exploring Data Analytics, diving into data visualization, statistical analysis, and predictive modeling to extract meaningful insights from data. I'm always eager to learn new technologies and enhance my problem-solving skills.
-                        Let's connect and build something amazing together!
+                    Hi, I'm Pranav, a passionate developer and third-year Computer Science student at Indian Institute of Information Technology Tiruchirappalli. I have expertise in Full-Stack Web Development and a growing interest in Data Analytics. With hands-on experience in Python, JavaScript, React, Node.js, FastAPI, and SQL, I build robust and scalable applications.
+
+I love creating innovative solutions, whether it's designing intelligent chatbots, dynamic blog platforms, or responsive portfolio websites.
+</p>
+<br>
+<p>My recent projects include integrating NLP-based chatbots with Dialogflow, building secure JWT-authenticated web applications, and optimizing front-end performance.
+
+Currently, I'm exploring Data Analytics, diving into data visualization, statistical analysis, and predictive modeling to extract meaningful insights from data. I'm always eager to learn new technologies and enhance my problem-solving skills.
+
+Let's <a href="#contacts" id="connect">connect</a> and build something amazing together! 
                     </p>
                 </div>
             </div>
@@ -202,25 +208,33 @@
             </div> -->
 
             <div class="skills_box">
-                <h2 class="skill_box_heading">Programming: </h2>
+                <div class="skill_heading">
+                    <h2 class="skill_box_heading">Programming: </h2>
+                </div>
                 <div class="skills_box_content">
                     <div class="indiviual_skill">
                         <img src="./assets/html.png" class="skill_icon" title="HTML 5">
+                        <p>HTML</p>
                     </div>
                     <div class="indiviual_skill">
                         <img src="./assets/css-3.png" class="skill_icon" title="CSS">
+                        <p>CSS</p>
                     </div>
                     <div class="indiviual_skill">
                         <img src="./assets/js.png" class="skill_icon" title="Javascript">
+                        <p>javascript</p>
                     </div>
                     <div class="indiviual_skill">
                         <img src="./assets/react.png" class="skill_icon" title="React">
+                        <p>react</p>
                     </div>
                     <div class="indiviual_skill">
                         <img src="./assets/node_js.png" class="skill_icon" title="Node js">
+                        <p>Nodejs</p>
                     </div>
                     <div class="indiviual_skill">
                         <img src="./assets/FastAPI.png" class="skill_icon" title="fast API">
+                        <p>fastAPI</p>
                     </div>
                 </div>
             </div>
@@ -230,9 +244,11 @@
                 <div class="skills_box_content">
                     <div class="indiviual_skill">
                         <img src="./assets/mysql-database.png" class="skill_icon" title="MySQL">
+                        <p>MySQL</p>
                     </div>
                     <div class="indiviual_skill">
                         <img src="./assets/postgre.png" class="skill_icon" title="Postgre">
+                        <p>Postgre</p>
                     </div>
                 </div>
             </div>
@@ -241,14 +257,15 @@
                 <h2 class="skill_box_heading">AI tools: </h2>
                 <div class="skills_box_content">
                     <div class="indiviual_skill">
-                        <img src="./assets/dialogflow-icon (1).png" class="skill_icon">
+                        <img src="./assets/Dialogflow.png" class="skill_icon">
+                        <p>Dialogflow</p>
                     </div>
                 </div>
             </div>
 
 
         </div>
-        <img src="./assets/arrow.png" alt="up-arrow" class="icon-arrow" onclick="location.href='./#projects'"/>
+        <!-- <img src="./assets/arrow.png" alt="up-arrow" class="icon-arrow" onclick="location.href='./#projects'"/> -->
     </section>
 
     <section id="projects">
@@ -257,45 +274,45 @@
         <div class="experience-details-container">
             <div class="about-containers-projects">
                 <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./assets/project-1.png" alt="Project 1" class="project-img"/>
+                    <div class="article-container" onclick="window.open('https://github.com/Pranav-Pote-28/Byte---Food-Chatbot-')">
+                        <img src="./assets/chat_bot.png" alt="Project 1" class="project-img"/>
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h2 class="experience-sub-title project-title">Byte</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Pranav-Pote-28/Byte---Food-Chatbot-')">
                             github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
                             Live Demo
-                        </button>
+                        </button> -->
                     </div>
                 </div>
                 <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="./assets/project-2.png" alt="Project 2" class="project-img"/>
+                    <div class="article-container" >
+                        <img src="./assets/insights_daily.png" alt="Project 2" class="project-img" onclick="window.open('https://github.com/Pranav-Pote-28/InsightsDaily_blogSite')"/>
                     </div>
-                    <h2 class="experience-sub-title project-title">Project two</h2>
+                    <h2 class="experience-sub-title project-title">Insights Daily</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Pranav-Pote-28/InsightsDaily_blogSite')">
                             github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
                             Live Demo
-                        </button>
+                        </button> -->
                     </div>
                 </div>
                 <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/project-3.png" alt="Project 3" class="project-img"/>
+                <div class="article-container" onclick="window.open('https://github.com/Pranav-Pote-28/Pranav_Portfolio_Website', '_blank')">
+                    <img src="./assets/portfolio.png" alt="Project 3" class="project-img"/>
                 </div>
-                <h2 class="experience-sub-title project-title">Project three</h2>
+                <h2 class="experience-sub-title project-title">Portfolio</h2>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Pranav-Pote-28/Pranav_Portfolio_Website', '_blank')">
                         github
                     </button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                    <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
                         Live Demo
-                    </button>
+                    </button> -->
                 </div>
             </div>
         </div>
@@ -314,7 +331,7 @@
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="LinkedIn icon"  class="icon contact-icon" id="linkedin-icon-2"/>
-                <p><a href="mailto:221142@iiitt.ac.in">221142@iiitt.ac.in</a></p>
+                <p><a href="https://www.linkedin.com/in/pranav-pote/">Linkedin</a></p>
             </div>
         </div>
 
