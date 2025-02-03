@@ -24,7 +24,9 @@ function toggleDarkMode(){
     
     if(document.body.classList.contains("dark-theme")){
         moonIcon.src="./assets/sun.png";
+        moonIconMedia.src="./assets/sun.png";
         moonIcon.title="light mode";
+        moonIconMedia.title="light mode";
         
         linkedinIcon.src="./assets/linkedin_dark.png";
         linkedinIcon2.src="./assets/linkedin_dark.png";
@@ -35,7 +37,15 @@ function toggleDarkMode(){
         
         
     }else{
+
+
+
+
         moonIcon.src="./assets/moon.png";
+        moonIconMedia.src="./assets/moon.png";
+        moonIcon.title="Dark mode";
+        moonIconMedia.title="light mode";
+
         linkedinIcon.src="./assets/linkedin.png";
         linkedinIcon2.src="./assets/linkedin.png";
         githubIcon.src="./assets/github.png";
