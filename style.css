@@ -52,9 +52,10 @@ a{
 a:hover{
     color:grey;
     text-decoration:underline;
-    text-decoration-color: rgba(181,181,181);
+    text-decoration-color: rgb(115, 115, 115);
     text-underline-offset: 1.5rem;
 }
+
 
 .logo{
     font-size:2rem;

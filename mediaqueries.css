@@ -70,6 +70,7 @@
 
 @media screen and (max-width:600px) {
 
+
     #contact,footer{
         height:40vh;
     }
@@ -110,6 +111,7 @@
 
     .contact-info-container p,.nav-links li a{
         font-size:1rem;
+        text-underline-offset: 1rem;
     }
 
     .experience-sub-title{
@@ -145,10 +147,16 @@
     }
 
     .text-container{
-        border:2px solid red;
+        /* border:2px solid red; */
         text-align: justify;
     }
 
+    a:hover{
+        text-underline-offset:0.5rem;
+    }
 
+    .nav-links a:hover {
+        text-underline-offset: 0.5rem;
+    }
 
 }
